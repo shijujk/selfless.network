@@ -4,7 +4,7 @@
     <title>Self-Assessment Form</title>
   </head>
   <body>
-    <h1>Self-Assessment Form</h1>
+    <h1>Slow Fashion Self-Assessment Form</h1>
     <form action="submit-form.php" method="post">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
@@ -15,43 +15,39 @@
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
       <br>
-      <label for="question-1">Question 1:</label>
+      <label for="question-1">How often do you buy new clothing?</label>
       <br>
-      <input type="checkbox" id="question-1-option-1" name="question-1[]" value="option-1">
-      <label for="question-1-option-1">Option 1</label>
+      <input type="radio" id="question-1-option-1" name="question-1" value="option-1">
+      <label for="question-1-option-1">Once a week</label>
       <br>
-      <input type="checkbox" id="question-1-option-2" name="question-1[]" value="option-2">
-      <label for="question-1-option-2">Option 2</label>
+      <input type="radio" id="question-1-option-2" name="question-1" value="option-2">
+      <label for="question-1-option-2">Once a month</label>
       <br>
-      <input type="checkbox" id="question-1-option-3" name="question-1[]" value="option-3">
-      <label for="question-1-option-3">Option 3</label>
-      <br>
-      <br>
-      <label for="question-2">Question 2:</label>
-      <br>
-      <input type="checkbox" id="question-2-option-1" name="question-2[]" value="option-1">
-      <label for="question-2-option-1">Option 1</label>
-      <br>
-      <input type="checkbox" id="question-2-option-2" name="question-2[]" value="option-2">
-      <label for="question-2-option-2">Option 2</label>
-      <br>
-      <input type="checkbox" id="question-2-option-3" name="question-2[]" value="option-3">
-      <label for="question-2-option-3">Option 3</label>
+      <input type="radio" id="question-1-option-3" name="question-1" value="option-3">
+      <label for="question-1-option-3">Once every six months or less</label>
       <br>
       <br>
-      <label for="question-3">Question 3:</label>
+      <label for="question-2">Do you know where your clothing comes from?</label>
       <br>
-      <input type="checkbox" id="question-3-option-1" name="question-3[]" value="option-1">
-      <label for="question-3-option-1">Option 1</label>
+      <input type="radio" id="question-2-option-1" name="question-2" value="option-1">
+      <label for="question-2-option-1">Yes, I always research the brands I buy from</label>
       <br>
-      <input type="checkbox" id="question-3-option-2" name="question-3[]" value="option-2">
-      <label for="question-3-option-2">Option 2</label>
+      <input type="radio" id="question-2-option-2" name="question-2" value="option-2">
+      <label for="question-2-option-2">Sometimes, but I don't always check</label>
       <br>
-      <input type="checkbox" id="question-3-option-3" name="question-3[]" value="option-3">
-      <label for="question-3-option-3">Option 3</label>
+      <input type="radio" id="question-2-option-3" name="question-2" value="option-3">
+      <label for="question-2-option-3">No, I don't pay attention to where my clothing comes from</label>
       <br>
       <br>
-      <input type="submit" value="Submit">
-    </form>
-  </body>
-</html>
+      <label for="question-3">Do you ever repair or alter your clothing instead of buying new items?</label>
+      <br>
+      <input type="radio" id="question-3-option-1" name="question-3" value="option-1">
+      <label for="question-3-option-1">Yes, I frequently repair or alter my clothing</label>
+      <br>
+      <input type="radio" id="question-3-option-2" name="question-3" value="option-2">
+      <label for="question-3-option-2">Sometimes, if it's easy to fix or alter</label>
+      <br>
+      <input type="radio" id="question-3-option-3" name="question-3" value="option-3">
+      <label for="question-3-option-3">No, I usually just buy new items instead of repairing or altering them</label>
+      <br>
+      <br>
